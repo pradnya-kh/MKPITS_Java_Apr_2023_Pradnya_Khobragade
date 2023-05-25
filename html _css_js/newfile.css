@@ -1,0 +1,11 @@
+h1{
+	color: rgb(150,100,80);
+	background: blue;
+}
+h3{
+	color: rgba(150,100,80,01);
+
+}
+h4{
+	color: hsla(259,20%,30%,0.9);
+}
