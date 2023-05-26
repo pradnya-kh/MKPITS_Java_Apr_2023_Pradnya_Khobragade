@@ -1,0 +1,13 @@
+.aqua{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(13, 78, 78);
+}
+.black{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+div{
+    display: flex;
+}
