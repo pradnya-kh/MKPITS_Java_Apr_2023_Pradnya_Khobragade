@@ -1,0 +1,28 @@
+.div1{
+    outline: 2px solid red;
+    border: 2px dashed pink;
+    padding: 2px;
+    margin-bottom: 2px;
+    background-color: aquamarine;
+    
+}
+.div2{
+    outline: 4px dashed black;
+    border: 4px dotted blue;
+    margin-top: 6px;
+    padding: 3px;
+}
+.div3{
+    outline: 4px double;
+    border-top: solid;
+    background-color: blueviolet;
+}
+.div4{
+    background-color: #eee;  
+        border: 3px solid Lightgreen;  
+        padding: 5px 10px;  
+        outline-width: 3px;  
+        outline-style: solid;  
+        outline-color: red;  
+}  
+}
