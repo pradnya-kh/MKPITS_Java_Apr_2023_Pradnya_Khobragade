@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.text{
+    text-align: left;
+    text-shadow: 2px 2px 2px red;
+
+}
+.text:hover{
+    text-shadow: 3px 3px 3px palevioletred;
+    font-size: 40px;
+}
+.box2{
+    text-align: start;
+    vertical-align: baseline;
+    font-weight: bolder;
+    
+
+}
+.abc{
+    text-decoration: double;
+    color: blue;
+    text-align: center;
+    font-size: smaller;
+    box-shadow: 2px 2px 2px red;
+    
+}
+.xyz{
+    text-align: center;
+    color: blueviolet;
+    font-style: italic;
+}
+.pqr{
+    text-align: left;
+    
+}
+.box1{
+    font-variant: small-caps;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
