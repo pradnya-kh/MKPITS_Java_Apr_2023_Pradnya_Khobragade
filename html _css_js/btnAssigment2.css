@@ -1,0 +1,39 @@
+.main{
+    background-color: rgb(93, 245, 101);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.main li{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    color: rgb(14, 13, 13);
+    padding: 12px 20px;
+}
+.dropdown{
+    position: relative;
+    display:inline-block;
+}
+.content{
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+.dropdown:hover .content{
+    display: block;
+    height: 250px;
+    width: 160px;
+    background-color: rgb(122, 124, 221);
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+.dropdown .content li:hover{
+    background-color: rgb(245, 146, 228);
+    border:2px solid black ;
+    color: palegreen;
+    border-radius: 10px;
+    box-shadow: 2px 3px ;
+}
