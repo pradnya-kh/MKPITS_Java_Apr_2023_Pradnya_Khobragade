@@ -1,0 +1,31 @@
+.tableDropdown{
+    padding: 14px 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(176, 17, 224);
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin-left: 50%;
+}
+.tableDropdown .table{
+    position: absolute;
+    display: none;
+}
+.tableDropdown:hover .table{
+    display: block;
+    width: 500px;
+    height: 520px;
+    color: black;
+}
+.tableDropdown .table tr td:hover{
+    background-color: pink;
+}
+.tableDropdown .table tr th:hover{
+    background-color: skyblue;
+    color: rgb(208, 125, 247);
+}
+.tableDropdown .table:hover{
+    border: 5px solid rgb(10, 10, 10);
+    box-shadow: 10px 10px 10px black;
+}
