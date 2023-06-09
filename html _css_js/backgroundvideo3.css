@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bgvideo .content{
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 28px;
+    font-size: 30px;
+    font-weight: 800;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+.bgvideo video{
+    width: 100%;
+    /* height: 100vh; */
+    position: absolute;
+    /* top: 0; */
+    background-size: cover;
+}
+.bgvideo .text{
+    position: relative;
+    top: 200px;
+    margin-left: 250px;
+    padding: 25px 40px;
+    background-color: black;
+    opacity: 0.6;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px gold;
+    color: white;
+}
+.bgvideo .text:hover{
+    background-color: white;
+    color: black;
+    opacity: 0.4;
+}
+.bgvideo h1{
+    padding: 8px 14px;
+    text-align: center;
+    font-size: 40px;
+}
+.bgvideo h1:hover{
+    color: red;
+}
+.bgvideo p{
+    font-size: 20px;
+    padding: 6px 12px;
+}
+.bgvideo p:hover{
+    color: palevioletred;
+}
