@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    background-color: black;
+    color: azure;
+    width: 200px;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    list-style-type: none;
+}
+li a{
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: ;
+
+}
+li a :hover{
+    font-size: ;
+}
