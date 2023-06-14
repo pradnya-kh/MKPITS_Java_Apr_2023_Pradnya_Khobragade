@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.testimonial{
+    margin: 50px;
+
+}
+.testimonial h1{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.testimonial .row{
+    margin-top: 30px;
+
+}
+.col-md-4{
+    margin: 40px;
+}
+.profile{
+    padding: 70px 10px 10px;
+    background-color:rgb(202, 176, 184)
+}
+.profile img{
+    top: 20%;
+    position: absolute;
+    border: 10px solid white;
+    margin-left: -50px;
+}
+.users{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
