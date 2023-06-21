@@ -1,0 +1,14 @@
+.main{
+    padding: 40px;
+    border: 2px solid black;
+}
+.para1{
+    padding: 12px;
+    box-shadow: 5px 5px 5px inset black;
+}
+.para2{
+    padding: 12px;
+    
+    box-shadow: 5px 5px 5px outset black;
+
+}

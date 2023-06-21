@@ -8,8 +8,8 @@
     z-index: 1;
     width: 100%;
     opacity: 0.95;
-    background: rgb(0, 36, 18);
-    background: linear-gradient(90deg, rgb(0, 36, 11) 0%, rgba(32,32,119,1) 11%, rgba(46,11,110,1) 18%, rgba(12,16,103,1) 22%, rgba(14,20,91,1) 29%, rgba(14,21,92,1) 39%, rgba(14,23,94,1) 50%, rgba(14,25,95,1) 60%, rgba(14,26,96,1) 65%, rgba(10,79,141,1) 75%, rgba(8,100,159,1) 79%, rgba(6,132,187,1) 85%, rgba(4,159,210,1) 90%, rgba(0,212,255,1) 100%);
+    background: rgb(174,210,238);
+background: radial-gradient(circle, rgba(174,210,238,1) 4%, rgba(148,187,233,1) 100%);
 }
 .collapse .navbar-nav .nav-item{
     font-size: 20px;
@@ -25,6 +25,7 @@
     color: yellow;
     /* font-size: 22px; */
 }
+.navbar .navbar-nav 
 
 
 /* section 2 */
@@ -66,7 +67,7 @@
 .container-fluid .row .col-lg-6 button{
     padding: 8px 20px;
     border-radius: 20px;
-    background-color: brown;
+    background-color: rgb(42, 71, 165);
     font-size: 20px;
     color: white;
     font-weight: 400;
@@ -79,9 +80,6 @@
 /* card section */
 .container .row .card .card-body .card-text button{
     padding: 8px 18px;
-    background-color: lightcoral;
+    background-color: rgb(153, 30, 122);
 }
 
-h1{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-}
