@@ -1,0 +1,16 @@
+*{
+    background-color: black;
+}
+
+#div2{
+    display: none;
+}
+.one{
+    background-color: black;
+}
+img{
+    padding-top: 70px;
+    height: 50%;
+    width: 50%;
+}
+
