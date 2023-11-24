@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div >
+        <h1>Calculator</h1>
+        <input type="text" id="text1" placeholder=" enter number">
+        <input type="text" id="text2" placeholder="enter number">
+        <br><br>
+        
+          <button value="+">+</button>
+          <button value="-">-</button>
+          <button value="*">*</button>
+          <button value="/">/</button>
+        
+        <input type="button" id="calculate" value="Calculate">
+        <input type="button" id="clear" value="Clear">
+        <input type="text" id="result" readonly>
+      </div>
+    
+      <script>
+        function calculate() {
+      var firstNumber = document.getElementById("text1").value;
+      var secondNumber = document.getElementById("text2").value;
+      var operator = document.getElementById("operator").value;
+      var result = eval(firstNumber + operator + secondNumber);
+      document.getElementById("result").value = result;
+    }
+    
+    document.getElementById("calculate").onclick = function() {
+      calculate();
+    };
+    
+    document.getElementById("clear").onclick = function() {
+      document.getElementById("text1").value = "";
+      document.getElementById("text2").value = "";
+      document.getElementById("result").value = "";
+    };
+      </script>
+        
+    
+</body>
+</html>

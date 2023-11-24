@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 id="text"></h3>
+    <script type="module">
+        import {rollno, name} from "/text.js";
+
+        let msg = rollno +' '+ 'is belong to'+ ' '+name+ ' from IT Department.';
+
+        document.getElementById("text").innerHTML= msg;
+
+        // import greet from "./text.js";
+        // document.getElementById("text").innerHTML= greet();
+    </script>
+</body>
+</html>
